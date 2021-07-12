@@ -14,10 +14,6 @@ function createLetter() {
       const space = ' ';
       spanWord.innerText = letterWords[index] + space;
       generateLetter.appendChild(spanWord);
-      spanWord.classList.add(style[Math.floor(Math.random * 3)]);
-      spanWord.classList.add(size[Math.floor(Math.random * 3)]);
-      spanWord.classList.add(rotate[Math.floor(Math.random * 2)]);
-      spanWord.classList.add(skew[Math.floor(Math.random * 2)]);
     }
   }
 }
