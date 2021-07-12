@@ -7,7 +7,8 @@ function createLetter() {
   const letterWords = letterText.split(' ');
   for (let index = 0; index < letterWords.length; index += 1) {
     const spanWord = document.createElement('span');
-    spanWord.innerHTML = letterWords[index];
+    const space = ' ';
+    spanWord.innerHTML = letterWords[index] + space;
     generateLetter.appendChild(spanWord);
   }
 }
