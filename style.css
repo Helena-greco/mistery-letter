@@ -4,6 +4,33 @@ body {
   text-align: center;
   margin: auto;
   padding: auto;
+  background-image: url(images/misterybackground3.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: 30% 45%;
+  background-size: cover;
+
+}
+
+h1 {
+  color: rgb(191, 24, 24);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;;
+  font-size: 50px;
+}
+
+#carta-texto {
+  border-radius:4px;
+  box-shadow: 1px 1px 2px #333333;
+  background: #cccccc; 
+  border: 1px solid black;
+}
+
+#criar-carta {
+  background-color: rgb(177, 2, 2);
+  color: white;
 }
 
 .newspaper {
